@@ -1,0 +1,11 @@
+ /* Завдання 1 */
+ div ~ p{
+    color: pink;
+ }
+ #greycol {
+    color: gray;
+ }
+ h3 + p
+ .yellow{
+    color: yellow;
+ }
