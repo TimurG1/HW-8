@@ -1,15 +1,30 @@
  /* Завдання 1 */
- /* {
-    color: pink;
- }
+ .text-box > h3:first-of-type {
+  color: pink;
+}
  #greycol {
-    color: gray;
- }
- h3 + p
- .yellow{
+    color: gray; }
+   .text-box > div > p {
+  color: red;
+}
+.yellow{
     color: yellow;
- } */
+ }
+ .text-box p:nth-of-type(3){
+   color: green;
+}
+
  /* Завдання 2 */
+ .first:nth-child(n+1){
+   color: navy;
+}
+
+ .second.second:nth-child(2n){
+   color: coral;
+}
+ .third:first-child{
+   color: lime;
+}
  thead:nth-child(even){
  color: green;
  }
@@ -17,5 +32,5 @@
    color: goldenrod;
  }
  .link:visited{
-   color: purple;
+   color: aquamarine;
  }
