@@ -1,5 +1,5 @@
  /* Завдання 1 */
- .{
+ /* {
     color: pink;
  }
  #greycol {
@@ -8,11 +8,14 @@
  h3 + p
  .yellow{
     color: yellow;
- }
+ } */
  /* Завдання 2 */
- thead:nth-child(2n){
+ thead:nth-child(even){
  color: green;
  }
- thead:nth-child(odd){
+ .link:hover{
    color: goldenrod;
+ }
+ .link:visited{
+   color: purple;
  }
