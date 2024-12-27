@@ -1,5 +1,5 @@
  /* Завдання 1 */
- div ~ p{
+ .{
     color: pink;
  }
  #greycol {
@@ -8,4 +8,11 @@
  h3 + p
  .yellow{
     color: yellow;
+ }
+ /* Завдання 2 */
+ thead:nth-child(2n){
+ color: green;
+ }
+ thead:nth-child(odd){
+   color: goldenrod;
  }
